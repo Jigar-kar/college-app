@@ -1,0 +1,76 @@
+smt-lp-savani-bca-college-app/
+├── android/
+├── ios/
+├── lib/
+│   ├── components/
+│   │   ├── button.dart
+│   │   ├── input_field.dart
+│   │   ├── loader.dart
+│   │   ├── splash_screen.dart
+|   |   └── onbording.dart
+|   |   └── view_rankers.dart
+|   |   └── view_time_table.dart
+|   ├──models/
+|   |   └── student.dart
+|   |   └── teacher.dart
+│   ├── screens/
+│   │   ├── admin/
+|   |   |   ├── add_ranker.dart
+|   |   |   ├── add_subject.dart
+|   |   |   ├── add_teacher.dart
+|   |   |   ├── add_time_table.dart
+│   │   │   ├── admin_screen.dart
+|   |   |   ├── approve_teacher_leave.dart
+│   │   │   ├── course_management.dart
+|   |   |   ├── detail_screen.dart
+│   │   │   ├── fee_management.dart
+│   │   │   ├── overview_screen.dart
+│   │   │   ├── post_notice.dart
+│   │   │   ├── slider_image.dart
+│   │   │   ├── student_overview.dart
+│   │   │   ├── upload_material.dart
+│   │   │   ├── upload_photo.dart
+│   │   │   └── view_photo.dart
+│   │   ├── student/
+│   │   │   ├── student_dashboard.dart
+│   │   │   ├── profile_edit.dart
+│   │   │   ├── marks_screen.dart
+│   │   │   ├── attendance_screen.dart
+│   │   │   ├── student_info_screen.dart
+│   │   │   └── fee_screen.dart
+│   │   ├── login_screen.dart
+│   │   ├── register_screen.dart
+│   │   ├── teacher/
+│   │   │   ├── teacher_screen.dart
+│   │   │   ├── attendance_management.dart
+│   │   │   └── marks_management.dart
+│   │   ├── visitor/
+│   │   │   ├── visitor_dashboard.dart
+│   │   │   ├── about_us_screen.dart
+│   │   │   ├── courses_screen.dart
+│   │   │   ├── admission_screen.dart
+│   │   │   ├── events_screen.dart
+│   │   │   ├── photo_gallery_screen.dart
+│   │   │   ├── contact_us_screen.dart
+│   │   │   ├── testimonials_screen.dart
+│   │   │   ├── faq_screen.dart
+│   │   │   ├── inquiry_form_screen.dart
+│   │   │   └── apply_now_screen.dart
+│   ├── services/
+│   │   ├── firebase_config.dart
+│   │   ├── auth_service.dart
+│   │   ├── user_service.dart
+│   │   ├── course_service.dart
+│   │   ├── attendance_service.dart
+│   │   └── marks_service.dart
+│   ├── styles/
+│   │   ├── colors.dart
+│   │   ├── fonts.dart
+│   │   └── global_styles.dart
+│   ├── main.dart
+│   └── routes.dart
+├── assets/
+│   ├── images/
+│   └── icons/
+├── pubspec.yaml
+└── README.md

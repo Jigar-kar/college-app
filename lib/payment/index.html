@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="payment-card">
+            <h2><i class="fas fa-credit-card"></i> Payment Gateway</h2>
+            
+            <div class="amount-section">
+                <h3>Amount to Pay</h3>
+                <p class="amount" id="amount">₹0.00</p>
+                <p class="charges" id="charges">+₹0.00 charges</p>
+            </div>
+
+            <div class="payment-methods">
+                <h3>Select Payment Method</h3>
+                
+                <!-- UPI Option -->
+                <div class="payment-option" id="upiOption">
+                    <input type="radio" id="upi" name="paymentMethod" value="upi">
+                    <label for="upi">
+                        <i class="fas fa-mobile-alt"></i>
+                        UPI Payment
+                        <span class="charges-badge">0.8% + GST</span>
+                    </label>
+                    <div class="upi-input hidden">
+                        <input type="text" placeholder="Enter UPI ID (e.g. name@upi)" id="upiId">
+                    </div>
+                </div>
+
+                <!-- Card Option -->
+                <div class="payment-option" id="cardOption">
+                    <input type="radio" id="card" name="paymentMethod" value="card">
+                    <label for="card">
+                        <i class="fas fa-credit-card"></i>
+                        Card Payment
+                        <span class="charges-badge">2% + GST</span>
+                    </label>
+                    <div class="card-input hidden">
+                        <input type="text" placeholder="Card Number" id="cardNumber" maxlength="16">
+                        <div class="card-details">
+                            <input type="text" placeholder="MM/YY" id="expiry" maxlength="5">
+                            <input type="password" placeholder="CVV" id="cvv" maxlength="3">
+                        </div>
+                        <input type="text" placeholder="Card Holder Name" id="cardName">
+                    </div>
+                </div>
+            </div>
+
+            <div class="amount-input">
+                <label for="payAmount">Enter Amount (₹)</label>
+                <input type="number" id="payAmount" min="1" step="1" value="0">
+            </div>
+
+            <button class="pay-button" id="payButton">
+                <i class="fas fa-lock"></i> Pay Securely
+            </button>
+
+            <div class="charges-info">
+                <p><i class="fas fa-info-circle"></i> Charges:</p>
+                <ul>
+                    <li>UPI: 0.8% + GST</li>
+                    <li>Card: 2% + GST</li>
+                    <li>Minimum charge: ₹10</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="notification" class="notification">
+        <p id="notificationText"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

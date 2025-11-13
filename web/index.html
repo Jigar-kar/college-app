@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Define the base path for the Flutter app -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="bca_c">
+  <link rel="apple-touch-icon" href="assets/logo3.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo3.png"/>
+
+  <title>bca_c</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Razorpay Payment Gateway -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.worker.min.js";
+    var pdfOptions = {
+      cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/cmaps/',
+      cMapPacked: true
+    };
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

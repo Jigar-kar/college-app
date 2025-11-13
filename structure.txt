@@ -1,0 +1,51 @@
+lib/
+├── components/
+│   ├── button.dart
+│   ├── dashboard_skeleton.dart
+│   ├── input_field.dart
+│   ├── loader.dart
+│   ├── onbording.dart
+│   ├── splash_screen.dart
+│   ├── view_rankers.dart
+│   └── view_time_table.dart
+│
+├── data/
+│   └── static_faqs.dart
+│
+├── models/
+│   ├── admission_form.dart
+│   ├── exam_model.dart
+│   ├── message_model.dart
+│   ├── notice.dart
+│   ├── student.dart
+│   └── teacher.dart
+│
+├── screens/
+│   ├── admin/
+│   │   ├── accept_student_request.dart
+│   │   ├── add_rankers.dart
+│   │   ├── add_subject_screen.dart
+│   │   ├── add_teacher.dart
+│   │   ├── add_time_table.dart
+│   │   ├── admin_screen.dart
+│   │   └── approve_teacher_leave.dart
+│   │
+│   ├── student/
+│   │   └── student_dashboard.dart
+│   │
+│   ├── teacher/
+│   │   └── teacher_screen.dart
+│   │
+│   └── shared/
+│       └── notices_list_screen.dart
+│
+├── services/
+│   ├── auth_service.dart
+│   ├── fcm_token_service.dart
+│   ├── ranker_service.dart
+│   ├── subject_service.dart
+│   └── teacher_leave.dart
+│
+├── firebase_options.dart
+├── main.dart
+└── routes.dart 

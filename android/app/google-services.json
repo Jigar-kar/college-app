@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "732054022817",
+    "project_id": "satuabababca-943ee",
+    "storage_bucket": "satuabababca-943ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732054022817:android:4538bb23fc5e0864321ee0",
+        "android_client_info": {
+          "package_name": "com.example.bca_c"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZjujKnsE-CNCs5n9VAKfYVv-t63Vp05g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

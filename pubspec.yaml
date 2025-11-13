@@ -1,0 +1,61 @@
+name: bca_c
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  google_nav_bar: ^5.0.6
+  firebase_auth: any
+  cloud_firestore: any
+  firebase_database: any
+  device_preview: any
+  table_calendar: ^3.0.0
+  firebase_storage: any
+  url_launcher: ^6.0.20
+  flutter_splash_screen: ^3.0.0
+  tbib_splash_screen: ^1.0.0
+  introduction_screen: ^3.1.14
+  image_picker: any
+  dio: ^5.7.0
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.5
+  upi_india: ^3.0.1
+  razorpay_flutter: any
+  file_picker: ^8.1.6
+  pdfx: ^2.6.0
+  flutter_pdfview: any
+  open_file: ^3.0.3
+  firebase_messaging: ^15.1.6
+  carousel_slider: ^4.0.0
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  cached_network_image: ^3.4.1
+  google_maps_flutter: ^2.5.0
+  google_sign_in: ^6.1.6
+  excel: ^2.1.0
+  share_plus: ^7.1.0
+  intl: ^0.19.0
+  fl_chart: ^0.66.0
+  flutter_local_notifications: ^15.1.0+1
+  image_gallery_saver: ^2.0.3
+  pdf: ^3.8.4
+  qr_flutter: ^4.1.0
+  data_table_2: any
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/

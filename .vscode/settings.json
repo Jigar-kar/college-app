@@ -1,0 +1,126 @@
+{
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Default Dark Modern", // Modern and professional theme
+    "workbench.iconTheme": "vs-seti",
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "Fira Code, JetBrains Mono, Consolas, 'Courier New', monospace", // Professional and stylish fonts
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.6,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.minimap.enabled": true,
+    "editor.minimap.scale": 2,
+    "editor.minimap.maxColumn": 80,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#6a9955" // Muted green for comments
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#c586c0" // Elegant pink for keywords
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#ce9178" // Warm orange for strings
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#282c34",
+        "sideBar.background": "#21252b",
+        "editor.background": "#1e222a",
+        "statusBar.background": "#61afef",
+        "statusBar.noFolderBackground": "#98c379",
+        "statusBar.debuggingBackground": "#e06c75",
+        "titleBar.activeBackground": "#282c34",
+        "titleBar.inactiveBackground": "#21252b",
+        "titleBar.activeForeground": "#dcdcdc",
+        "titleBar.inactiveForeground": "#a9a9a9"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.sideBar.location": "left",
+    "explorer.compactFolders": true,
+    "explorer.openEditors.visible": 0, // Clean look by hiding open editors
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "JetBrains Mono, Fira Code, monospace",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "workbench.statusBar.visible": true,
+    "breadcrumbs.enabled": true,
+    "files.associations": {
+        "*.sln": "javascript"
+    },
+    "C_Cpp.default.compilerPath": "d:\\J I G A R\\S E M - 3\\D F S\\SORTING.BAK",
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python311\\python.exe",
+    "html.format.indentInnerHtml": true,
+    "html.format.templating": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "emulator.emulatorPathWindows": "C:\\Users\\LENOVO\\AppData\\Local\\Android\\Sdk\\emulator-2",
+    "emulator.simulatorPath": "C:\\Users\\LENOVO\\AppData\\Local\\Android\\Sdk\\emulator",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "bookmarks.experimental.enableNewStickyEngine": true,
+    "bookmarks.navigateThroughAllFiles": true,
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "json.schemas": [
+    
+        
+
+        {
+            "fileMatch": [
+                "/myfile"
+            ],
+            "url": "schemaURL"
+        }
+    ],
+    "json.format.enable": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showOptionsMovedNotification": false,
+    "cSpell.userWords": [
+        "chatrooms",
+        "choich",
+        "cupertino",
+        "Divition",
+        "profilepic",
+        "Substraction"
+    ],
+    "redhat.telemetry.enabled": true,
+    "cSpell.words": [
+        "Bhavnagar",
+        "Geofence",
+        "Palitana",
+        "Satua",
+        "Songdh",
+        "teacherclass",
+        "Vishwanath"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cmake.sourceDirectory": "D:/PROJECT/bca_c/linux"
+}
